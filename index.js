@@ -15,16 +15,16 @@ app.get('/usuarios', function (req, res) {
   res.json([{
     "id":1,
     "nombre":"Antonio",
-    "tipo":"Adminnistrador"
+    "tipo":"Usuario Administrador"
   },{
     "id":2,
     "nombre":"Emanuel",
-    "tipo":"Invitado"
+    "tipo":"Usuario Invitado"
   },
   {
     "id":3,
     "nombre":"Moises",
-    "tipo":"Invitado"
+    "tipo":"Usuario Invitado"
   }]);
 })
  
